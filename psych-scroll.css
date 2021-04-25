@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital@0;1&display=swap');
+
+body {
+  background: #E02020;
+  padding: 0;
+  margin: 0;
+  transition: background-color 0.3s;
+  font-family: 'Playfair'
+}
+
+.content {
+  color: white;
+  width: 80 %;
+  margin: 0px auto 0px auto;
+  padding: 20px 70px;
+  position: relative;
+  font-smooth: auto;
+}
+
+.content h2 {
+  margin: 0;
+  font-family: 'Anton'
+}
+
+.psych {
+  position: absolute;
+  font-size: 100px;
+}
+
+.psych::first-child {
+  position: relative;
+}
+
+.content p {
+  font-size: 18px;
+}
+
+.section {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+}
